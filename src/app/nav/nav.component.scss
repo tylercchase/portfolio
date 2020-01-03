@@ -1,0 +1,36 @@
+.title {
+    font-family: 'Noto Serif', serif;
+    font-size: 48px;
+    max-width: 20%;
+    width: 20%;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+.bar {
+    max-width: 100%;
+    color: white;
+}
+.links {
+    max-width: 80%;
+    width: 80%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+    width: 10%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    flex-basis: 150px;
+
+}
+.active {
+    color: red;
+}

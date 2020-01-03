@@ -1,0 +1,33 @@
+/*
+example fonts
+font-family: 'Noto Serif', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rhodium Libre', serif;
+font-family: 'Ubuntu Mono', monospace;
+*/
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    background: linear-gradient(55.81deg, rgba(166, 115, 115, 0.25) -4.77%, rgba(119, 179, 198, 0.25) 107.23%);
+}
+.octo {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    object-fit: fill;
+    background-size: 100% 100%;
+
+    z-index: -1;
+    background: url(/assets/images/octo.jpg), no-repeat center center fixed;
+    background-size: cover;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
