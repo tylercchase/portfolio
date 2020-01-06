@@ -4,7 +4,7 @@
     max-width: 20%;
     width: 20%;
     text-align: center;
-    padding: 5px 5px 5px 5px;
+    padding-left: 3rem;
 }
 .bar {
     max-width: 100%;
@@ -31,6 +31,17 @@ a {
     flex-basis: 150px;
 
 }
-.active {
-    color: red;
+.active{
+    font-weight: 500;
+}
+.active::after {
+    content: " ";
+    display: block;
+    width: 74px;
+    height: 10px;
+
+    background: #EFEEEE;
+    border-radius: 25px;
+
+    margin-left: 18%;
 }

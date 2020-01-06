@@ -2,10 +2,10 @@
     position: absolute;
     width: 364px;
     height: 186px;
-    left: 131px;
+    left: 190px;
     top: 357px;
 
-    font-family: Ubuntu Mono;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -13,4 +13,100 @@
     text-align: center;
 
     color: #CADAD5;
+}
+
+.swirly {
+    position: absolute;
+    width: 700.18px;
+    height: 500px;
+    left: -18px;
+    top: 486px;
+
+}
+.contact-text {
+    position: absolute;
+    width: 151px;
+    height: 44px;
+    left: 15px;
+    top: 652px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+    color: #FFFFFF;
+}
+.github-icon {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 31px;
+    top: 724px;    
+}
+.github-text{
+    position: absolute;
+    width: 170px;
+    height: 53.04px;
+    left: 90px;
+    top: 724px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.linkedin-icon{
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 26px;
+    top: 785px;
+}
+.linkedin-text {
+    position: absolute;
+    width: 170px;
+    height: 53.04px;
+    left: 90px;
+    top: 789.98px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.email-icon {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 27px;
+    top: 856px;
+}
+.email-text {
+    position: absolute;
+    width: 170px;
+    height: 53px;
+    left: 90px;
+    top: 856px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
